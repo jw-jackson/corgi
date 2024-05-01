@@ -11,43 +11,6 @@
             "hash": "sha256:cd583dd102b93e2bcabf01e0b37eab7f9d024cf7eee0f963bdae05a59e84db3f"
         }
     },
-    "pre_install": "",
     "innosetup": true,
-    "post_install": [
-        "",
-        ""
-    ],
-    "uninstaller": {
-        "script": ""
-    },
     "bin": "dopus.exe",
-    "env_add_path": [
-        "",
-        ""
-    ],
-    "persist": [
-        "",
-        ""
-    ],
-    "checkver": {
-        "url": "",
-        "regex": ""
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": ""
-            },
-            "32bit": {
-                "url": ""
-            },
-            "arm64": {
-                "url": ""
-            }
-        },
-        "hash": {
-            "url": "",
-            "regex": ""
-        }
-    }
 }
