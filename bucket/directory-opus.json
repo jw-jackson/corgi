@@ -14,10 +14,10 @@
     "pre_install": "",
     "innosetup": true,
     "installer": {
-        "script": "Get-ChildItem -Recurse \"$dir\" -Filter \"*,*\" | Foreach-Object { Move-Item $_.FullName $_.FullName.Replace(\",1\", \"\") }"
+        "script": ""
     },
     "post_install": [
-        "",
+        "Remove-Item \"$dir\\`$PLUGINSDIR\",\"$dir\\Uninstall*\" -Force -Recurse",
         ""
     ],
     "uninstaller": {
