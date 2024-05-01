@@ -12,8 +12,9 @@
         }
     },
     "pre_install": "",
+    "innosetup": true,
     "installer": {
-        "script": ""
+        "script": "Get-ChildItem -Recurse \"$dir\" -Filter \"*,*\" | Foreach-Object { Move-Item $_.FullName $_.FullName.Replace(\",1\", \"\") }"
     },
     "post_install": [
         "",
@@ -22,7 +23,7 @@
     "uninstaller": {
         "script": ""
     },
-    "bin": "",
+    "bin": "dopus.exe",
     "env_add_path": [
         "",
         ""
