@@ -13,9 +13,6 @@
     },
     "pre_install": "",
     "innosetup": true,
-    "installer": {
-        "script": ""
-    },
     "post_install": [
         "Remove-Item \"$dir\\`$PLUGINSDIR\",\"$dir\\Uninstall*\" -Force -Recurse",
         ""
