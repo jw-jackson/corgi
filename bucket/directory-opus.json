@@ -12,5 +12,5 @@
         }
     },
     "innosetup": true,
-    "bin": "dopus.exe",
+    "bin": "dopus.exe"
 }
