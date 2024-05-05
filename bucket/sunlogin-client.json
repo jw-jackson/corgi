@@ -7,7 +7,7 @@
     "notes": "",
     "architecture": {
         "64bit": {
-            "url": "https://d.oray.com/sunlogin/windows/SunloginClient_15.3.2.62919_x64.exe",
+            "url": "https://d.oray.com/sunlogin/windows/SunloginClient_15.3.2.62919_x64.exe#/dl.7z",
             "hash": "sha256:fb48dd1a9d8090cd9b3ab1695748bb94c548ef5b23bf7b660d14c87d16654fd1"
         }
     },
